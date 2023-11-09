@@ -281,8 +281,8 @@ header{
     color: var(--e-global-color-accent);
 }
 .banner-section-outer .banner-section .banner-section-content h1{
-    font-size: 94px;
-    line-height: 95px;
+    font-size: 60px;
+    line-height: 60px;
     margin-bottom: 25px;
 }
 .banner-section-outer .banner-section .banner-section-content p{
