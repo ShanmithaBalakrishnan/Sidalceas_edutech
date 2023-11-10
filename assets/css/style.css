@@ -281,8 +281,8 @@ header{
     color: var(--e-global-color-accent);
 }
 .banner-section-outer .banner-section .banner-section-content h1{
-    font-size: 94px;
-    line-height: 95px;
+    font-size: 60px;
+    line-height: 60px;
     margin-bottom: 25px;
 }
 .banner-section-outer .banner-section .banner-section-content p{
@@ -560,7 +560,7 @@ header{
     left: 0;
     z-index: 1;
     position: absolute;
-    padding: 40px 30px
+    padding: 70px 46px;
 }
 .our_services_section .image_box_content h2{
     margin-bottom: 48px;
@@ -653,7 +653,7 @@ header{
 
 .our_statistics_section{
     background-color: #362f35;
-    padding: 130px 0 505px;
+    padding: 130px 0;
 }
 .our_statistics_section::before{
     content: "";
@@ -729,8 +729,8 @@ header{
 /* Home Page Our Portfolio Section Style */
 
 .our_portfolio_section{
-    margin-top: -385px;
-    padding-bottom: 140px;
+    margin-top: 50px;
+    padding-bottom: 50px;
 }
 .our_portfolio_section .heading{
     margin-bottom: 65px;
@@ -1217,7 +1217,7 @@ header{
 /* Home Page Client Logo's Section Style */
 
 .client_logo_section{
-    padding: 0 130px 130px; 
+    padding: 30px 0; 
     text-align: center;
     position: relative;
 }
