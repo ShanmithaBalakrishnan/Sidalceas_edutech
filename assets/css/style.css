@@ -282,7 +282,7 @@ header {
 }
 .banner-section-outer .banner-section .banner-section-content h1 {
   font-size: 94px;
-  line-height: 95px;
+  line-height: 60px;
   margin-bottom: 25px;
 }
 .banner-section-outer .banner-section .banner-section-content p {
@@ -661,7 +661,7 @@ header {
 
 .our_statistics_section {
   background-color: #362f35;
-  padding: 130px 0;
+  padding: 130px 0px 250px;
 }
 .our_statistics_section::before {
   content: "";
@@ -737,7 +737,7 @@ header {
 /* Home Page Our Portfolio Section Style */
 
 .our_portfolio_section {
-  margin-top: -385px;
+  margin-top: -100px;
   padding-bottom: 140px;
 }
 .our_portfolio_section .heading {
@@ -857,6 +857,133 @@ header {
   margin-left: 30px;
 }
 .our_portfolio_section .left_shape {
+  top: 90px;
+  left: 238px;
+}
+
+/* Home Page Our Internship Section Style */
+
+.our_Internship_section {
+  margin-top: -330px;
+  padding-bottom: 140px;
+}
+.our_Internship_section .heading {
+  margin-bottom: 65px;
+}
+.our_Internship_section .heading figure {
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.our_Internship_section .heading h6 {
+  color: var(--e-global-color-secondary);
+}
+.our_Internship_section .heading h2 {
+  padding: 0 235px;
+}
+.our_Internship_section .portfolio_box {
+  position: relative;
+  margin-bottom: 75px;
+  transition: all 0.3s ease-in-out;
+}
+.our_Internship_section .portfolio_box .left_circle_shape {
+  top: -55px;
+  left: -55px;
+}
+.our_Internship_section .portfolio_box .portfolio_box_content {
+  background-color: var(--e-global-color-white);
+  box-shadow: 0px 19px 54px 0px rgb(0 0 0 / 5%);
+  padding: 22px 28px;
+  border-radius: 15px;
+  position: absolute;
+  bottom: -45px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 86%;
+  z-index: 2;
+  transition: all 0.3s ease-in-out;
+}
+.our_Internship_section .portfolio_box:hover .portfolio_box_content {
+  background-color: var(--e-global-color-secondary);
+}
+.our_Internship_section .portfolio_box .portfolio_box_content span {
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  display: block;
+  color: var(--e-global-color-strong-red);
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  transition: all 0.3s ease-in-out;
+}
+.our_Internship_section .portfolio_box:hover .portfolio_box_content span {
+  color: var(--e-global-color-white);
+}
+.our_Internship_section .portfolio_box .portfolio_box_content p {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 800;
+  color: var(--e-global-color-primary);
+  transition: all 0.3s ease-in-out;
+}
+.our_Internship_section .portfolio_box:hover .portfolio_box_content p {
+  color: var(--e-global-color-white);
+}
+.our_Internship_section .portfolio_box .portfolio_image_wrapper {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.our_Internship_section .portfolio_box .portfolio_image_wrapper figure img {
+  border-radius: 30px;
+}
+.overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(181, 27, 65, 0.8);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s ease;
+  border-radius: 30px;
+}
+.portfolio_image_wrapper:hover .overlay {
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+}
+.bottom-overlay {
+  top: 100%;
+}
+.portfolio_image_wrapper:hover .bottom-overlay {
+  top: 0;
+}
+.box_hover_effect {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.our_Internship_section .btn_wrapper {
+  text-align: center;
+  margin-top: 20px;
+}
+.our_Internship_section .btn_wrapper a {
+  padding: 20px 20px 20px 60px;
+  border: 1px solid var(--e-global-color-accent);
+}
+.our_Internship_section .btn_wrapper i {
+  margin-left: 30px;
+}
+.our_Internship_section .left_shape {
   top: 90px;
   left: 238px;
 }
