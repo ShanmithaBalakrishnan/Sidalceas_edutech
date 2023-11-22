@@ -661,7 +661,7 @@ header {
 
 .our_statistics_section {
   background-color: #362f35;
-  padding: 130px 0px 250px;
+  padding: 130px 0px 450px;
 }
 .our_statistics_section::before {
   content: "";
@@ -737,7 +737,7 @@ header {
 /* Home Page Our Portfolio Section Style */
 
 .our_portfolio_section {
-  margin-top: -100px;
+  margin-top: -300px;
   padding-bottom: 140px;
 }
 .our_portfolio_section .heading {
@@ -1135,7 +1135,8 @@ header {
 /* Home Page Testimonials Section Style */
 
 .testimonials-section {
-  padding: 135px 0 145px;
+  margin-top: 100px;
+  padding: 0 0 145px;
 }
 .testimonials-section .heading {
   margin-bottom: 65px;
@@ -1242,6 +1243,9 @@ header {
   left: -10px;
 }
 
+#testimonials {
+  margin-top: -50px;
+}
 /* Home Page Our Staff Section Style */
 
 .our_staff_section {
@@ -2062,7 +2066,7 @@ header {
 /* Services Page Services Section Style */
 
 .services_section {
-  padding: 140px 0 112px;
+  padding: 0 0 112px;
 }
 .services_section .heading {
   margin-bottom: 65px;
@@ -2593,8 +2597,13 @@ header {
   padding: 130px 0;
 }
 
-#title{
-  font-size: 70px;
+#title {
+  font-size: 60px;
+  word-spacing: 5px;
 }
-
-
+#custom_section {
+  padding-bottom: 150px;
+}
+#sevice_testimonials {
+  margin-top: -50px;
+}
